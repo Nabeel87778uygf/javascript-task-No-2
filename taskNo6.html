@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let english = prompt("enter your marks out of 100");
+        english = parseFloat(english);
+        let urdu =  prompt("enter your marks out of 100");
+        urdu = parseFloat(urdu);
+        let maths = prompt("enter your marks out of 100");
+        maths = parseFloat(maths);
+        let isl = prompt("enter your marks out of 100");
+        isl = parseFloat(isl);
+        let obtainedmarks = english+urdu+maths+isl;
+        alert(obtainedmarks);
+        totalmarks = 400;
+        alert("your total marks of your subjects is: " + totalmarks);
+        let average = obtainedmarks/totalmarks*100;
+        alert("the average of your marks is :" + average);
+       let grade = prompt("enter your grade just like in average that show in average: " )
+       if(grade >= 85 ){
+        alert("your grade is A: ");
+       }else if(grade < 85 && grade >=75){
+        alert("your grade is B: ");
+       }else if(grade < 75 && grade >=65){
+        alert("your grade is C: ");
+       }else if(grade <65 && grade >= 50){
+        alert("your grade is D ");
+       }else if(grade < 50){
+        alert("your grade is F.. ");
+       }else{
+        alert("you are wrong")
+       }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    <script>
+    //     let correctAnswer = 0;
+    //    let q1 = prompt("What is 2+2?");
+    //    if(q1 == "4"){
+    //     alert("your first answer will be correct");
+    //    }else{
+    //     alert ("your first answer is wrong");
+    //    }
+
+    //    let q2 = prompt("What is the capital of France?");
+    //    if(q2.toLowerCase() == "paris"){
+    //     alert("your second answer will be correct");
+    //    }else{
+    //     alert ("your second answer will be wrong");
+    //    }
+
+    //    let q3 = prompt("Which planet is known as the Red Planet?");
+    //    if(q3.toLowerCase() =="mars" ){
+    //     alert("your third answer will be correct");
+    //    }else{
+    //     alert("your third answer will be wrong");
+    //    }
+    //    if(correctAnswer == 3  ){
+    //    alert("you got 3 out of 3 ");
+    //    }
+    //    else if(correctAnswer == 2){
+    //     alert("you got 2 out of 3");
+    //    }
+    //    else if(correctAnswer == 1){
+    //     alert("you got 1 out of 3");
+    //    }else{
+    //     alert("you 0 out of 3")
+    //    }
+
+
+ 
+    let correctAnswer = 0;
+
+    // Question 1
+    let q1 = prompt("What is 2+2?");
+    if (q1 == "4") {
+        alert("Your first answer is correct");
+        correctAnswer++; // Increment correctAnswer when the answer is correct
+    } else {
+        alert("Your first answer is wrong");
+    }
+
+    // Question 2
+    let q2 = prompt("What is the capital of France?");
+    if (q2.toLowerCase() == "paris") {
+        alert("Your second answer is correct");
+        correctAnswer++; // Increment correctAnswer when the answer is correct
+    } else {
+        alert("Your second answer is wrong");
+    }
+
+    // Question 3
+    let q3 = prompt("Which planet is known as the Red Planet?");
+    if (q3.toLowerCase() == "mars") {
+        alert("Your third answer is correct");
+        correctAnswer++; // Increment correctAnswer when the answer is correct
+    } else {
+        alert("Your third answer is wrong");
+    }
+
+    // Display the result based on the number of correct answers
+    if (correctAnswer == 3) {
+        alert("You got 3 out of 3 correct!");
+    } else if (correctAnswer == 2) {
+        alert("You got 2 out of 3 correct!");
+    } else if (correctAnswer == 1) {
+        alert("You got 1 out of 3 correct!");
+    } else {
+        alert("You got 0 out of 3 correct!");
+    }
+
+
+
+
+
+
+    </script>
+</body>
+</html>
